@@ -1,0 +1,104 @@
+.history-content {
+  flex: 1;
+  padding: 2rem;
+}
+
+.history-content h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.loading,
+.empty {
+  text-align: center;
+  padding: 3rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.2rem;
+}
+
+.history-grid {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  gap: 2rem;
+  height: calc(100vh - 8rem);
+}
+
+.projects-list {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.project-card {
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.project-card:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.project-card.active {
+  background: rgba(102, 126, 234, 0.2);
+  border-color: #667eea;
+}
+
+.project-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-card p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
+}
+
+.project-detail {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+.detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.detail-header h2 {
+  font-size: 1.5rem;
+}
+
+.detail-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.detail-actions button {
+  padding: 0.5rem 1rem;
+  background: rgba(102, 126, 234, 0.2);
+  color: #667eea;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.detail-actions button:hover {
+  background: rgba(102, 126, 234, 0.3);
+}
