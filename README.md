@@ -264,7 +264,7 @@ This project demonstrates:
 - **Real-World AI Architecture** - Production-ready patterns
 - **Full-Stack Integration** - React + FastAPI + PostgreSQL + AI
 
-Perfect for showcasing advanced AI engineering skills and modern software architecture.
+Perfect for showcasing advanced AI engineering skills and modern software architecture
 
 ---
 
